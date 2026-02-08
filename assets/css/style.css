@@ -840,7 +840,7 @@ Header Style
     align-items: center;
     gap: 4px;
     width: 100%;
-    left:0px;
+    left: 0px;
   }
   .header-area .main-nav .logo img {
     width: 38px;
@@ -858,11 +858,11 @@ Header Style
 
 @media (max-width: 300px) {
   .header-area .main-nav .logo {
-   padding: 10px;
+    padding: 10px;
   }
   .header-area .main-nav .logo {
     align-items: start;
-   }
+  }
 }
 
 /* 
@@ -1943,4 +1943,8 @@ body {
   .contact-page .section-heading {
     margin-right: 100px;
   }
+}
+
+.count-number::before {
+  content: "+";
 }
